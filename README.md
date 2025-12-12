@@ -2,6 +2,8 @@
 
 A Fusion add-in that provides HTTP API functionality for Model Context Protocol (MCP) communication. MCP is a standardized protocol that enables AI assistants to interact with external tools and data sources. This add-in enables external applications (like Cursor) to interact with Fusion through a secure HTTP interface.
 
+[See detailed usage instructions here](<Fusion MCP Addin/tips.md>)
+
 ## Features
 
 - **HTTP Server Management**: Create and manage HTTP servers within Fusion
@@ -54,3 +56,6 @@ The main add-in that implements MCP-compatible HTTP endpoints for Fusion interac
 ## Installation & More
 
 [Installation instructions, troubleshooting, and more are found here](<Fusion MCP Addin/README.md>)
+
+## License
+Samples are licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT). Please see the [LICENSE](LICENSE) file for full details.
