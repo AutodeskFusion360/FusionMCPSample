@@ -32,7 +32,9 @@ To use this with Claude you need to run a small MCP proxy process as CLaude does
 
 To do this you must first [install Node js](https://nodejs.org/en/download) and ensure npx is installed.
 
-Then in your Claude configuration file enter the following:
+In Claude go to Settings/Connectors/Developer and select the **Edit Config** button to navigate to the config file.
+
+Open the Claude configuration file `claude_desktop_config.json`and enter the following:
 
 ```json
 {
