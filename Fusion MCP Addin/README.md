@@ -26,6 +26,30 @@ To use this MCP server with Cursor, add it to your Cursor configuration:
 }
 ```
 
+## Configuring Claude
+
+To use this with Claude you need to run a small MCP proxy process as CLaude does not support local HTTP servers.
+
+To do this you must first [install Node js](https://nodejs.org/en/download) and ensure npx is installed.
+
+Then in your Claude configuration file enter the following:
+
+```json
+{
+  "mcpServers": {
+    "fusion-mcp": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "http://localhost:9100/"
+      ]
+    }
+  }
+}
+```
+
+For information and other setup options see the [mcp-remote documentation here](https://www.npmjs.com/package/mcp-remote)
+
 ## Available Tools
 
 Once the add-in is running, the following MCP tools are available:
